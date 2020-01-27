@@ -1,0 +1,18 @@
+---
+book:
+  archive_url_base: https://archive.cnx.org/contents/
+  uuid: 02040312-72c8-441e-a685-20e9333f3e1d
+  version: '13.16'
+  reading_processing_instructions:
+  - css: .section-quiz, .short-answer, .further-research, [data-element-type="section-quiz"],
+      [data-element-type="short-answer"], [data-element-type="further-research"],
+      [data-type="glossary"]
+    fragments: []
+catalog_offering:
+  title: Introduction to Sociology 2e
+  description: Introduction to Sociology 2e with Courseware
+  appearance_code: intro_sociology
+  salesforce_book_name: Introduction to Sociology
+  default_course_name: Introduction to Sociology 2e
+  webview_url_base: http://cnx.org/contents/AgQDEnLI/contents/02040312-72c8-441e-a685-20e9333f3e1d@13.16/contents/
+  pdf_url_base: "/exports/02040312-72c8-441e-a685-20e9333f3e1d@13.16/exports/"

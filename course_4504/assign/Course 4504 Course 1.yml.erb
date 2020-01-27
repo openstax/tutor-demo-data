@@ -1,0 +1,42 @@
+---
+course:
+  name: Course 4504 Course 1
+  task_plans:
+  - title: Course 4504 Reading 2
+    type: reading
+    book_locations:
+    - chapter: 1
+      section: 0
+    - chapter: 1
+      section: 1
+    - chapter: 1
+      section: 2
+    assigned_to:
+    - period:
+        name: Course 4504 Period 2
+      opens_at: "<%= Time.current - 4.days %>"
+      due_at: "<%= Time.current + 10.days %>"
+    - period:
+        name: Course 4504 Period 1
+      opens_at: "<%= Time.current - 4.days %>"
+      due_at: "<%= Time.current + 10.days %>"
+    is_published: true
+  - title: Course 4504 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 1
+      section: 0
+    - chapter: 1
+      section: 1
+    - chapter: 1
+      section: 2
+    assigned_to:
+    - period:
+        name: Course 4504 Period 2
+      opens_at: "<%= Time.current - 15.days %>"
+      due_at: "<%= Time.current - 14.days %>"
+    - period:
+        name: Course 4504 Period 1
+      opens_at: "<%= Time.current - 15.days %>"
+      due_at: "<%= Time.current - 14.days %>"
+    is_published: true

@@ -1,0 +1,28 @@
+---
+book:
+  archive_url_base: https://archive.cnx.org/contents/
+  uuid: 6c322e32-9fb0-4c4d-a1d7-20c95c5c7af2
+  version: '18.4'
+  reading_processing_instructions:
+  - css: ".review-questions, .free-response, .ap-practice, .contextualization-questions,
+      .historical-reasoning, .teacher-note"
+    fragments: []
+  - css: ".primary-sources"
+    fragments:
+    - reading
+    labels:
+    - primary-sources
+  - css: ".note"
+    fragments:
+    - reading
+    - exercise
+    labels:
+    - note
+catalog_offering:
+  title: Biology for AP® Courses
+  description: Biology for AP® Courses with Courseware
+  appearance_code: ap_biology
+  salesforce_book_name: AP Bio
+  default_course_name: Biology for AP® Courses
+  webview_url_base: http://cnx.org/contents/GFy_h8cu/contents/
+  pdf_url_base: "/exports/"

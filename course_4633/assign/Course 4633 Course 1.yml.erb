@@ -1,0 +1,40 @@
+---
+course:
+  name: Course 4633 Course 1
+  task_plans:
+  - title: Course 4633 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 2
+      section: 2
+    - chapter: 2
+      section: 3
+    exercises_count_core: 9
+    exercises_count_dynamic: 3
+    assigned_to:
+    - period:
+        name: Course 4633 Period 2
+      opens_at: "<%= Time.current + 12.days %>"
+      due_at: "<%= Time.current + 17.days %>"
+    - period:
+        name: Course 4633 Period 1
+      opens_at: "<%= Time.current + 12.days %>"
+      due_at: "<%= Time.current + 17.days %>"
+    is_published: true
+  - title: Course 4633 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 2
+      section: 2
+    - chapter: 2
+      section: 3
+    assigned_to:
+    - period:
+        name: Course 4633 Period 2
+      opens_at: "<%= Time.current + 12.days %>"
+      due_at: "<%= Time.current + 14.days %>"
+    - period:
+        name: Course 4633 Period 1
+      opens_at: "<%= Time.current + 12.days %>"
+      due_at: "<%= Time.current + 14.days %>"
+    is_published: true

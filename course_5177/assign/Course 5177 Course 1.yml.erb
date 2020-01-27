@@ -1,0 +1,73 @@
+---
+course:
+  name: Course 5177 Course 1
+  task_plans:
+  - title: Course 5177 External 1
+    type: external
+    external_url: https://example.com/Course 5177 External 1
+    assigned_to:
+    - period:
+        name: Course 5177 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 25.days %>"
+    is_published: true
+  - title: Course 5177 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 1
+      section: 2
+    exercises_count_core: 2
+    exercises_count_dynamic: 1
+    assigned_to:
+    - period:
+        name: Course 5177 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 25.days %>"
+    is_published: true
+  - title: Course 5177 Homework 2
+    type: homework
+    book_locations:
+    - chapter: 8
+      section: 3
+    exercises_count_core: 1
+    exercises_count_dynamic: 1
+    assigned_to:
+    - period:
+        name: Course 5177 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 25.days %>"
+    is_published: true
+  - title: Course 5177 Event 1
+    type: event
+    assigned_to:
+    - period:
+        name: Course 5177 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 25.days %>"
+    is_published: true
+  - title: Course 5177 Homework 3
+    type: homework
+    book_locations:
+    - chapter: 4
+      section: 2
+    - chapter: 4
+      section: 3
+    exercises_count_core: 3
+    exercises_count_dynamic: 1
+    assigned_to:
+    - period:
+        name: Course 5177 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 25.days %>"
+    is_published: true
+  - title: Course 5177 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 1
+      section: 2
+    assigned_to:
+    - period:
+        name: Course 5177 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 25.days %>"
+    is_published: true

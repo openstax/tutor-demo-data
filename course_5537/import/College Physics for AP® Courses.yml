@@ -1,0 +1,28 @@
+---
+book:
+  archive_url_base: https://archive.cnx.org/contents/
+  uuid: 8d04a686-d5e8-4798-a27d-c608e4d0e187
+  version: '26.1'
+  reading_processing_instructions:
+  - css: ".review-questions, .free-response, .ap-practice, .contextualization-questions,
+      .historical-reasoning, .teacher-note"
+    fragments: []
+  - css: ".primary-sources"
+    fragments:
+    - reading
+    labels:
+    - primary-sources
+  - css: ".note"
+    fragments:
+    - reading
+    - exercise
+    labels:
+    - note
+catalog_offering:
+  title: College Physics for AP® Courses
+  description: College Physics for AP® Courses with Courseware
+  appearance_code: ap_physics
+  salesforce_book_name: AP Physics
+  default_course_name: College Physics for AP® Courses
+  webview_url_base: " http://cnx.org/contents/8d04a686-d5e8-4798-a27d-c608e4d0e187@21.1/contents/"
+  pdf_url_base: "/exports/"

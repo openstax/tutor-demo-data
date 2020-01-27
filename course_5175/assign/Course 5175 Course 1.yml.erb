@@ -1,0 +1,54 @@
+---
+course:
+  name: Course 5175 Course 1
+  task_plans:
+  - title: Course 5175 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 7
+      section: 0
+    - chapter: 7
+      section: 1
+    - chapter: 7
+      section: 2
+    - chapter: 7
+      section: 3
+    - chapter: 8
+      section: 2
+    - chapter: 8
+      section: 3
+    - chapter: 8
+      section: 4
+    assigned_to:
+    - period:
+        name: Course 5175 Period 2
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 58.days %>"
+    - period:
+        name: Course 5175 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 58.days %>"
+    is_published: false
+  - title: Course 5175 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 7
+      section: 0
+    - chapter: 7
+      section: 1
+    - chapter: 7
+      section: 2
+    - chapter: 7
+      section: 3
+    exercises_count_core: 1
+    exercises_count_dynamic: 2
+    assigned_to:
+    - period:
+        name: Course 5175 Period 2
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 55.days %>"
+    - period:
+        name: Course 5175 Period 1
+      opens_at: "<%= Time.current + 24.days %>"
+      due_at: "<%= Time.current + 55.days %>"
+    is_published: true

@@ -1,0 +1,53 @@
+---
+course:
+  name: Course 4719 Course 1
+  task_plans:
+  - title: Course 4719 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 5
+      section: 0
+    - chapter: 5
+      section: 1
+    - chapter: 5
+      section: 2
+    - chapter: 5
+      section: 3
+    exercises_count_core: 2
+    exercises_count_dynamic: 3
+    assigned_to:
+    - period:
+        name: Course 4719 Period 1
+      opens_at: "<%= Time.current + 52.days %>"
+      due_at: "<%= Time.current + 57.days %>"
+    is_published: true
+  - title: Course 4719 Homework 2
+    type: homework
+    book_locations:
+    - chapter: 5
+      section: 0
+    - chapter: 5
+      section: 1
+    - chapter: 5
+      section: 2
+    - chapter: 5
+      section: 3
+    exercises_count_core: 2
+    exercises_count_dynamic: 2
+    assigned_to:
+    - period:
+        name: Course 4719 Period 1
+      opens_at: "<%= Time.current + 52.days %>"
+      due_at: "<%= Time.current + 59.days %>"
+    is_published: true
+  - title: Course 4719 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 3
+      section: 2
+    assigned_to:
+    - period:
+        name: Course 4719 Period 1
+      opens_at: "<%= Time.current + 52.days %>"
+      due_at: "<%= Time.current + 58.days %>"
+    is_published: true

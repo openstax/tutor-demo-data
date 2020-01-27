@@ -1,0 +1,28 @@
+---
+book:
+  archive_url_base: https://archive.cnx.org/contents/
+  uuid: 6c322e32-9fb0-4c4d-a1d7-20c95c5c7af2
+  version: '17.7'
+  reading_processing_instructions:
+  - css: ".review-questions, .free-response, .ap-practice, .contextualization-questions,
+      .historical-reasoning, .teacher-note"
+    fragments: []
+  - css: ".primary-sources"
+    fragments:
+    - reading
+    labels:
+    - primary-sources
+  - css: ".note"
+    fragments:
+    - reading
+    - exercise
+    labels:
+    - note
+catalog_offering:
+  title: AP Bio Prod
+  description: Updated AP Bio
+  appearance_code: ''
+  salesforce_book_name: AP Bio
+  default_course_name: ''
+  webview_url_base: https://archive.cnx.org/contents/6c322e32-9fb0-4c4d-a1d7-20c95c5c7af2@17.7/contents/
+  pdf_url_base: https://archive.cnx.org/contents/6c322e32-9fb0-4c4d-a1d7-20c95c5c7af2@17.7/exports/

@@ -1,0 +1,28 @@
+---
+course:
+  name: Course 4690 Course 1
+  task_plans:
+  - title: Course 4690 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 8
+      section: 2
+    assigned_to:
+    - period:
+        name: Course 4690 Period 1
+      opens_at: "<%= Time.current + 39.days %>"
+      due_at: "<%= Time.current + 40.days %>"
+    is_published: true
+  - title: Course 4690 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 7
+      section: 3
+    exercises_count_core: 1
+    exercises_count_dynamic: 1
+    assigned_to:
+    - period:
+        name: Course 4690 Period 1
+      opens_at: "<%= Time.current + 39.days %>"
+      due_at: "<%= Time.current + 40.days %>"
+    is_published: true

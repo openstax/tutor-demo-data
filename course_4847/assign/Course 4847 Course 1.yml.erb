@@ -1,0 +1,53 @@
+---
+course:
+  name: Course 4847 Course 1
+  task_plans:
+  - title: Course 4847 Reading 2
+    type: reading
+    book_locations:
+    - chapter: 5
+      section: 0
+    - chapter: 5
+      section: 1
+    - chapter: 5
+      section: 2
+    - chapter: 5
+      section: 3
+    - chapter: 5
+      section: 4
+    assigned_to:
+    - period:
+        name: Course 4847 Period 1
+      opens_at: "<%= Time.current + 7.days %>"
+      due_at: "<%= Time.current + 16.days %>"
+    is_published: true
+  - title: Course 4847 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 10
+      section: 2
+    - chapter: 10
+      section: 3
+    - chapter: 10
+      section: 4
+    assigned_to:
+    - period:
+        name: Course 4847 Period 1
+      opens_at: "<%= Time.current + 28.days %>"
+      due_at: "<%= Time.current + 31.days %>"
+    is_published: true
+  - title: Course 4847 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 12
+      section: 1
+    - chapter: 32
+      section: 2
+    exercises_count_core: 2
+    exercises_count_dynamic: 1
+    assigned_to:
+    - period:
+        name: Course 4847 Period 1
+      opens_at: "<%= Time.current + 28.days %>"
+      due_at: "<%= Time.current + 33.days %>"
+    is_published: true

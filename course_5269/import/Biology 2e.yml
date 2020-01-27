@@ -1,0 +1,23 @@
+---
+book:
+  archive_url_base: https://archive.cnx.org/contents/
+  uuid: 8d50a0af-948b-4204-a71d-4826cba765b8
+  version: '15.45'
+  reading_processing_instructions:
+  - css: .multiple-choice, .free-response, .art-exercise, .interactive-long, .scientific,
+      [data-type="glossary"]
+    fragments: []
+  - css: ".interactive"
+    fragments:
+    - node
+    - exercise
+    labels:
+    - interactive
+catalog_offering:
+  title: Biology 2e
+  description: Biology 2e with Courseware
+  appearance_code: biology_2e
+  salesforce_book_name: Biology
+  default_course_name: Biology 2e
+  webview_url_base: https://cnx.org/contents/jVCgr5SL/contents/
+  pdf_url_base: "/exports/"

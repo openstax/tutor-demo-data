@@ -1,0 +1,28 @@
+---
+book:
+  archive_url_base: https://archive-content05.cnx.org/contents/
+  uuid: 0a621f27-abe1-4c17-8f1c-d80d07958977
+  version: '14.1'
+  reading_processing_instructions:
+  - css: ".review-questions, .free-response, .ap-practice, .contextualization-questions,
+      .historical-reasoning, .os-teacher"
+    fragments: []
+  - css: ".primary-sources"
+    fragments:
+    - reading
+    labels:
+    - primary-sources
+  - css: ".note"
+    fragments:
+    - reading
+    - exercise
+    labels:
+    - note
+catalog_offering:
+  title: APUSH
+  description: AP US History testing
+  appearance_code: ''
+  salesforce_book_name: Other
+  default_course_name: APUSH Testing
+  webview_url_base: https://archive-content05.cnx.org/contents/0a621f27-abe1-4c17-8f1c-d80d07958977@14.1/contents/
+  pdf_url_base: https://archive-content05.cnx.org/contents/0a621f27-abe1-4c17-8f1c-d80d07958977@14.1/exports/

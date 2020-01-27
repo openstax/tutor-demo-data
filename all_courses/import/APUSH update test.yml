@@ -1,0 +1,28 @@
+---
+book:
+  archive_url_base: https://archive-content05.cnx.org/contents/
+  uuid: 0a621f27-abe1-4c17-8f1c-d80d07958977
+  version: '38.2'
+  reading_processing_instructions:
+  - css: ".review-questions, .free-response, .ap-practice, .contextualization-questions,
+      .historical-reasoning, .os-teacher"
+    fragments: []
+  - css: ".primary-sources"
+    fragments:
+    - reading
+    labels:
+    - primary-sources
+  - css: ".note"
+    fragments:
+    - reading
+    - exercise
+    labels:
+    - note
+catalog_offering:
+  title: APUSH update test
+  description: testing for apush
+  appearance_code: ''
+  salesforce_book_name: apush test
+  default_course_name: ''
+  webview_url_base: https://archive-content05.cnx.org/contents/0a621f27-abe1-4c17-8f1c-d80d07958977/contents/
+  pdf_url_base: https://archive-content05.cnx.org/contents/0a621f27-abe1-4c17-8f1c-d80d07958977/exports/

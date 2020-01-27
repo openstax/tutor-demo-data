@@ -1,0 +1,36 @@
+---
+course:
+  name: Course 5889 Course 1
+  task_plans:
+  - title: Course 5889 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 1
+      section: 0
+    - chapter: 1
+      section: 1
+    - chapter: 1
+      section: 2
+    assigned_to:
+    - period:
+        name: Course 5889 Period 1
+      opens_at: "<%= Time.current + 25.days %>"
+      due_at: "<%= Time.current + 26.days %>"
+    is_published: true
+  - title: Course 5889 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 1
+      section: 0
+    - chapter: 1
+      section: 1
+    - chapter: 1
+      section: 2
+    exercises_count_core: 5
+    exercises_count_dynamic: 3
+    assigned_to:
+    - period:
+        name: Course 5889 Period 1
+      opens_at: "<%= Time.current + 25.days %>"
+      due_at: "<%= Time.current + 26.days %>"
+    is_published: true

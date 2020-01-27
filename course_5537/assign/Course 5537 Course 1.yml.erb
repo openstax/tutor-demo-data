@@ -1,0 +1,84 @@
+---
+course:
+  name: Course 5537 Course 1
+  task_plans:
+  - title: Course 5537 Reading 3
+    type: reading
+    book_locations:
+    - chapter: 2
+      section: 2
+    - chapter: 2
+      section: 3
+    assigned_to:
+    - period:
+        name: Course 5537 Period 2
+      opens_at: "<%= Time.current - 24.days %>"
+      due_at: "<%= Time.current - 23.days %>"
+    - period:
+        name: Course 5537 Period 1
+      opens_at: "<%= Time.current - 24.days %>"
+      due_at: "<%= Time.current - 23.days %>"
+    is_published: true
+  - title: Course 5537 Reading 1
+    type: reading
+    book_locations:
+    - chapter: 2
+      section: 4
+    assigned_to:
+    - period:
+        name: Course 5537 Period 3
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current + 3.days %>"
+    - period:
+        name: Course 5537 Period 2
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current + 3.days %>"
+    - period:
+        name: Course 5537 Period 1
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current + 3.days %>"
+    is_published: true
+  - title: Course 5537 Homework 1
+    type: homework
+    book_locations:
+    - chapter: 2
+      section: 2
+    - chapter: 2
+      section: 3
+    exercises_count_core: 5
+    exercises_count_dynamic: 3
+    assigned_to:
+    - period:
+        name: Course 5537 Period 3
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current - 3.days %>"
+    - period:
+        name: Course 5537 Period 2
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current - 3.days %>"
+    - period:
+        name: Course 5537 Period 1
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current - 3.days %>"
+    is_published: true
+  - title: Course 5537 Reading 2
+    type: reading
+    book_locations:
+    - chapter: 2
+      section: 2
+    - chapter: 2
+      section: 3
+    assigned_to:
+    - period:
+        name: Course 5537 Period 3
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current - 5.days %>"
+    - period:
+        name: Course 5537 Period 2
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current - 5.days %>"
+    - period:
+        name: Course 5537 Period 1
+      opens_at: "<%= Time.current - 23.days %>"
+      due_at: "<%= Time.current - 5.days %>"
+    is_published: true

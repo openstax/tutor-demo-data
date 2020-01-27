@@ -1,0 +1,35 @@
+---
+book:
+  archive_url_base: https://archive.cnx.org/contents/
+  uuid: 405335a3-7cff-4df2-a9ad-29062a4af261
+  version: '7.53'
+  reading_processing_instructions:
+  - css: .conceptual-questions, .problems-exercises, [data-element-type="conceptual-questions"],
+      [data-element-type="problems-exercises"], [data-element-type="check-understanding"],
+      [data-type="glossary"]
+    fragments: []
+  - css: ".phet-explorations-embedded"
+    fragments:
+    - interactive
+    - exercise
+    labels:
+    - phet-explorations
+  - css: ".watch-physics"
+    fragments:
+    - video
+    - exercise
+    labels:
+    - watch-physics
+  - css: .example-video, [data-type="example"]
+    fragments:
+    - reading
+    labels:
+    - example
+catalog_offering:
+  title: College Physics
+  description: College Physics with Courseware
+  appearance_code: college_physics
+  salesforce_book_name: College Physics (Algebra)
+  default_course_name: College Physics
+  webview_url_base: http://cnx.org/contents/QFM1o3z_/contents/
+  pdf_url_base: "/exports/"

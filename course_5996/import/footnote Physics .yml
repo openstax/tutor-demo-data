@@ -1,0 +1,35 @@
+---
+book:
+  archive_url_base: https://archive.cnx.org/contents/
+  uuid: 405335a3-7cff-4df2-a9ad-29062a4af261
+  version: '7.61'
+  reading_processing_instructions:
+  - css: .conceptual-questions, .problems-exercises, [data-element-type="conceptual-questions"],
+      [data-element-type="problems-exercises"], [data-element-type="check-understanding"],
+      [data-type="glossary"]
+    fragments: []
+  - css: ".phet-explorations-embedded"
+    fragments:
+    - interactive
+    - exercise
+    labels:
+    - phet-explorations
+  - css: ".watch-physics"
+    fragments:
+    - video
+    - exercise
+    labels:
+    - watch-physics
+  - css: .example-video, [data-type="example"]
+    fragments:
+    - reading
+    labels:
+    - example
+catalog_offering:
+  title: 'footnote Physics '
+  description: 'Testing the footnote in physics '
+  appearance_code: ''
+  salesforce_book_name: 'College Physics '
+  default_course_name: ''
+  webview_url_base: https://archive.cnx.org/contents/405335a3-7cff-4df2-a9ad-29062a4af261@7.53/contents/
+  pdf_url_base: https://archive.cnx.org/contents/405335a3-7cff-4df2-a9ad-29062a4af261@7.53/exports/
